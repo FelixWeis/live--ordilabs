@@ -15,7 +15,7 @@ pub fn Home(cx: Scope) -> impl IntoView {
     <div class="content py-8">
       <div class="flex">
         <h1 class="flex-1 text-2xl font-bold text-gray-900 dark:text-gray-100">
-          "Live unconfirmed inscriptions " {i18n.t(cx, TK::Hello)}
+          {i18n.t(cx, TK::AnticipatedInscriptions)}
         </h1>
       </div>
       <div class="text-xs text-gray-900 dark:text-gray-100 empty:after:content-['\u{200b}'] empty:after:inline-block">

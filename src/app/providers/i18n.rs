@@ -9,6 +9,8 @@ use crate::app::i18n::locale_data;
 pub enum Locale {
   EN,
   DE,
+  HI,
+  ZN,
 }
 
 impl Locale {
@@ -16,6 +18,8 @@ impl Locale {
     match self {
       Locale::EN => "EN",
       Locale::DE => "DE",
+      Locale::HI => "HI",
+      Locale::ZN => "ZN",
     }
   }
 }
@@ -27,6 +31,7 @@ pub type Translation = HashMap<TK, &'static str>;
 pub enum TK {
   Hello,
   World,
+  AnticipatedInscriptions,
 }
 
 #[allow(dead_code)]

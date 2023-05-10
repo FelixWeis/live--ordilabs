@@ -7,5 +7,6 @@ pub fn translation() -> Translation {
   hash_map!(
       TK::Hello => "Hallo",
       TK::World => "Welt",
+      TK::AnticipatedInscriptions => "⭕️ Erwartete Inschriften",
   )
 }
